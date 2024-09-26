@@ -1,0 +1,9 @@
+package com.example.limited_product_shop.common.exception;
+
+import org.springframework.http.HttpStatus;
+
+public interface ErrorCode {
+    String name();
+    HttpStatus getHttpStatus();
+    String getMessage();
+}
