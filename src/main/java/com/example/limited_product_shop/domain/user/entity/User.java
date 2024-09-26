@@ -20,7 +20,7 @@ import java.util.UUID;
 public class User extends BaseTimeEntity {
 
     @Id
-    private UUID id;
+    private UUID uuid;
 
     @Column(nullable = false)
     private String name;
